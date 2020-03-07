@@ -1,4 +1,4 @@
-namespace Linked
+namespace LinkedList
 {
     public class LinkedList<T>
     {
@@ -24,7 +24,5 @@ namespace Linked
         // Our linked list is initially empty
         private Node head = null;
 
-
     }
-
 }

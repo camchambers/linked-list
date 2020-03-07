@@ -1,5 +1,5 @@
 ﻿using System;
-using Linked;
+using LinkedList;
 
 namespace linked_list
 {
@@ -7,11 +7,11 @@ namespace linked_list
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Linked List Example");
 
             // Create a new Linked List
             LinkedList<int> linkedList = new LinkedList<int>();
 
+            // Add nodes to the linked list
             linkedList.addNode(3);
             linkedList.addNode(6);
             linkedList.addNode(9);
