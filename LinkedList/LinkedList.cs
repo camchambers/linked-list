@@ -1,4 +1,6 @@
-namespace LinkedList
+using System;
+
+namespace Linked
 {
     public class LinkedList<T>
     {
@@ -21,8 +23,20 @@ namespace LinkedList
             head = newNode;
         }
 
+        // Print out all of the nodes in the Linked List
+        public void printNodes()
+        {
+            Node temp = head;
+            while (temp != null)
+            {
+                Console.WriteLine(temp.Data);
+                temp = temp.Next;
+            }
+        }
+
         // Our linked list is initially empty
         private Node head = null;
 
     }
+
 }
