@@ -1,5 +1,12 @@
 # Linked List
-> A simple implementation of a [Linked List](https://en.wikipedia.org/wiki/Linked_list) in C#
+> A simple implementation of a [Singly Linked List](https://en.wikipedia.org/wiki/Linked_list) in C#
+
+## FAQ
+**A linked list exists as a part of the System.Collections.Generic namespace. Why reinvent the wheel?**
+
+Building a solution from scratch allows for mastery (a deep understanding of how all of the pieces of a solution work) and creativity (extending or changing how a solution behaves). 
+
+##
 
 ### TO DO
 
@@ -8,7 +15,6 @@
 - [x] Create a method for adding nodes to the linked list
 - [X] Create a method for printing the linked list
 - [ ] Create a method for deleting an item from the linked list
-
 
 ## Example
 
@@ -21,7 +27,7 @@
      linkedList.addNode(6);
      linkedList.addNode(9);
  ```
-
+ 
 ### Clone
 
 - Clone this repo to your local machine using `git@github.com:camchambers/linked-list.git`
