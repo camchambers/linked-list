@@ -27,8 +27,7 @@
  
 ## FAQ
 **A linked list exists as a part of the System.Collections.Generic namespace. Why reinvent the wheel?**
-
-Building a solution from scratch allows for a deeper understanding of how all of the pieces of a solution work, and for the flexibility of experimenting with how a solution behaves. 
+Rebuilding an existing solution can provide a deeper understanding of how it works, and it also affords the flexibility of experimenting with how it behaves. 
  
 ## Clone
 
