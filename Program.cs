@@ -1,4 +1,4 @@
-﻿using Linked;
+﻿using System;
 
 namespace linked_list
 {
@@ -6,17 +6,18 @@ namespace linked_list
     {
         static void Main(string[] args)
         {
-            
             // Create a new Linked List
             LinkedList<int> linkedList = new LinkedList<int>();
 
             // Add nodes to the Linked List
-            linkedList.addNode(3);
-            linkedList.addNode(6);
-            linkedList.addNode(9);
+            linkedList.AddNode(1);
+            linkedList.AddNode(3);
+            linkedList.AddNode(5);
+            linkedList.AddNode(7);
+            linkedList.AddNode(9);
 
             // Print the contents of the Linked List
-            linkedList.printNodes();
+            linkedList.PrintNodes();
 
         }
     }
