@@ -10,11 +10,11 @@ namespace linked_list
             LinkedList<int> linkedList = new LinkedList<int>();
 
             // Add nodes to the Linked List
-            linkedList.AddNode(1);
-            linkedList.AddNode(3);
-            linkedList.AddNode(5);
-            linkedList.AddNode(7);
-            linkedList.AddNode(9);
+            linkedList.PrependNode(9);
+            linkedList.PrependNode(7);
+            linkedList.PrependNode(5);
+            linkedList.PrependNode(3);
+            linkedList.PrependNode(1);
 
             // Print the contents of the Linked List
             linkedList.PrintNodes();

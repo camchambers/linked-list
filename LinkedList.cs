@@ -16,7 +16,7 @@ namespace linked_list
         }
 
         // Create a node at the beggining of our list with t as our data value
-        public void AddNode(T t)
+        public void PrependNode(T t)
         {
             Node newNode = new Node();
             newNode.Next = head;
