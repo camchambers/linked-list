@@ -5,9 +5,10 @@
 
 - [x] Write a Node class
 - [x] Write a LinkedList class
-- [x] Create a method for adding nodes to the linked list
+- [x] Create a method for prepending a node to the linked list
 - [X] Create a method for printing the linked list
-- [ ] Create a method for deleting an item from the linked list
+- [ ] Create a method for appending a node to the the linked list
+- [ ] Create a method for deleting a node from the linked list
 
 ## Example
 
