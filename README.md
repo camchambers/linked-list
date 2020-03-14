@@ -1,5 +1,5 @@
 # Linked List
-> A simple implementation of a [Singly Linked List](https://en.wikipedia.org/wiki/Linked_list) in C#
+> This project provides a c# implementation of a [singly linked list](https://en.wikipedia.org/wiki/Linked_list). A linked list is a data structure that represents a sequence of nodes, where each node in the list points to the next node. A benefit of a linked list is that items can be added and removed from the beggining of the list in constant time (which can be useful for specific applications). However, a linked list does not provide constant time access to a particiular item (index) within the list, like an array does. 
 
 ## TO DO
 
@@ -28,7 +28,7 @@
 ## FAQ
 **A linked list exists as a part of the System.Collections.Generic namespace. Why reinvent the wheel?**
 
-Building a solution from scratch allows for mastery (a deep understanding of how all of the pieces of a solution work) and creativity (extending or changing how a solution behaves). 
+Building a solution from scratch allows for a deeper understanding of how all of the pieces of a solution work, and for the flexibility of experimenting with how a solution behaves. 
  
 ## Clone
 
