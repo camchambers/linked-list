@@ -15,13 +15,21 @@ namespace linked_list
             public T Data;
         }
 
+        // The linked list is initially empty
+        private Node head = null;
+
+        public int NodeCount { get; private set; } = 0;
+
         // Create a node at the beggining of our list with t as our data value
         public void PrependNode(T t)
         {
-            Node newNode = new Node();
-            newNode.Next = head;
-            newNode.Data = t;
+            Node newNode = new Node
+            {
+                Next = head,
+                Data = t
+            };
             head = newNode;
+            NodeCount++;
         }
 
         // Print out all of the nodes in the Linked List
@@ -34,10 +42,5 @@ namespace linked_list
                 temp = temp.Next;
             }
         }
-
-        // Our linked list is initially empty
-        private Node head = null;
-
     }
-
 }

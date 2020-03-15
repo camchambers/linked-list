@@ -16,7 +16,11 @@ namespace linked_list
             linkedList.PrependNode(3);
             linkedList.PrependNode(1);
 
+            // Print the total number of nodes in the linked list
+            Console.WriteLine("Node count: " + linkedList.NodeCount + Environment.NewLine);
+
             // Print the contents of the Linked List
+            Console.WriteLine("Printing nodes:");
             linkedList.PrintNodes();
 
         }
