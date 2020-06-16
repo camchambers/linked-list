@@ -1,15 +1,6 @@
 # Linked List
 > A [singly linked list](https://en.wikipedia.org/wiki/Linked_list) is a data structure that represents a sequence of nodes, where each node in the list points to the next node. A benefit of a linked list is that items can be added and removed from the beggining of the list in constant time (which can be useful for specific applications). However, a linked list does not provide constant time access to a particiular item (index) within the list, like an array does. 
 
-## TO DO
-
-- [x] Write a Node class
-- [x] Write a LinkedList class
-- [x] Create a method for prepending a node to the linked list
-- [X] Create a method for printing the linked list
-- [ ] Create a method for appending a node to the the linked list
-- [ ] Create a method for deleting a node from the linked list
-
 ## Example
 
 ```csharp
