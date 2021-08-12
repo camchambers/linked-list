@@ -22,7 +22,6 @@ namespace linked_list
             // Print the contents of the Linked List
             Console.WriteLine("Printing nodes:");
             linkedList.PrintNodes();
-
         }
     }
 }
